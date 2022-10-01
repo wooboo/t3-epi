@@ -1,0 +1,2241 @@
+{
+    "contentTypes": [
+        {
+            "id": "426cf12f-1f01-4ea0-922f-0778314ddaf0",
+            "name": "ButtonBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "ButtonText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ButtonText",
+                        "groupName": "Information",
+                        "sortOrder": 1
+                    }
+                },
+                {
+                    "name": "ButtonLink",
+                    "dataType": "PropertyUrl",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ButtonLink",
+                        "groupName": "Information",
+                        "sortOrder": 2,
+                        "hint": "Url"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "85468104-e06f-47e5-a317-fc9b83d3cba6",
+            "name": "VideoFile",
+            "baseType": "Video",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Copyright",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Copyright",
+                        "groupName": "Information",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "PreviewImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PreviewImage",
+                        "groupName": "Information",
+                        "sortOrder": 0,
+                        "hint": "image"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f522b459-eb27-462c-b216-989fc7ff9448",
+            "name": "VectorImageFile",
+            "baseType": "Image",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": []
+        },
+        {
+            "id": "0a89e464-56d4-449f-aea8-2bf774ab8730",
+            "name": "ImageFile",
+            "baseType": "Image",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Copyright",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Copyright",
+                        "groupName": "Information",
+                        "sortOrder": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ee3bd195-7cb0-4756-ab5f-e5e223cd9820",
+            "name": "GenericMedia",
+            "baseType": "Media",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Description",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Description",
+                        "groupName": "Information",
+                        "sortOrder": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "19671657-b684-4d95-a61f-8dd4fe60d559",
+            "name": "StartPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "GlobalNewsPageLink",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "GlobalNewsPageLink",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "ContactsPageLink",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ContactsPageLink",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "SearchPageLink",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "SearchPageLink",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "SiteLogotype",
+                    "dataType": "PropertyBlock",
+                    "itemType": "SiteLogotypeBlock",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "SiteLogotype",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "ProductPageLinks",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ProductPageLinks",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "CompanyInformationPageLinks",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "CompanyInformationPageLinks",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 350
+                    }
+                },
+                {
+                    "name": "NewsPageLinks",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "NewsPageLinks",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 400
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                },
+                {
+                    "name": "CustomerZonePageLinks",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "CustomerZonePageLinks",
+                        "groupName": "SiteSettings",
+                        "sortOrder": 450
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9ccc8a41-5c8c-4be0-8e73-520ff3de8267",
+            "name": "StandardPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "MainBody",
+                    "dataType": "PropertyXhtmlString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainBody",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "aac25733-1d21-4f82-b031-11e626c91e30",
+            "name": "SearchPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "RelatedContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "RelatedContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "17583dcd-3c11-49dd-a66d-0def0dd601fc",
+            "name": "ProductPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "UniqueSellingPoints",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "UniqueSellingPoints",
+                        "groupName": "Information",
+                        "sortOrder": 305,
+                        "hint": "StringsCollection"
+                    }
+                },
+                {
+                    "name": "MainBody",
+                    "dataType": "PropertyXhtmlString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainBody",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "RelatedContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "RelatedContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 330
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dbed4258-8213-48db-a11f-99c034172a54",
+            "name": "LandingPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "638d8271-5ca3-4c72-babc-3e8779233263",
+            "name": "NewsPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "NewsList",
+                    "dataType": "PropertyBlock",
+                    "itemType": "PageListBlock",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "NewsList",
+                        "groupName": "Information",
+                        "sortOrder": 305
+                    }
+                },
+                {
+                    "name": "MainBody",
+                    "dataType": "PropertyXhtmlString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainBody",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f8d47655-7b50-4319-8646-3369ba9af05b",
+            "name": "ContactPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Image",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image",
+                        "groupName": "Contact",
+                        "sortOrder": 0,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "Phone",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Phone",
+                        "groupName": "Contact",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "Email",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Email",
+                        "groupName": "Contact",
+                        "sortOrder": 0
+                    }
+                },
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "aeecadf2-3e89-4117-adeb-f8d43565d2f4",
+            "name": "ArticlePage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "MainBody",
+                    "dataType": "PropertyXhtmlString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainBody",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "MainContentArea",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainContentArea",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        },
+        {
+            "id": "a7d46007-43e5-4401-9204-127040e79e09",
+            "name": "AllPropertiesTestPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "ContentArea1",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Area",
+                        "groupName": "Information",
+                        "sortOrder": 10
+                    }
+                },
+                {
+                    "name": "ContentAreaReadonly1",
+                    "dataType": "PropertyContentArea",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Area [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 20
+                    }
+                },
+                {
+                    "name": "ContentReference1",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Reference",
+                        "groupName": "Information",
+                        "sortOrder": 30
+                    }
+                },
+                {
+                    "name": "ContentReferenceReadonly1",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Reference [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 40
+                    }
+                },
+                {
+                    "name": "ContentReferenceList1",
+                    "dataType": "PropertyContentReferenceList",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Reference List",
+                        "groupName": "Information",
+                        "sortOrder": 50
+                    }
+                },
+                {
+                    "name": "ContentReferenceListReadonly1",
+                    "dataType": "PropertyContentReferenceList",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Content Reference List [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 60
+                    }
+                },
+                {
+                    "name": "LinkItemCollection1",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Link item collection",
+                        "groupName": "Information",
+                        "sortOrder": 70
+                    }
+                },
+                {
+                    "name": "LinkItemCollectionReadonly1",
+                    "dataType": "PropertyLinkCollection",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Link item collection [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 80
+                    }
+                },
+                {
+                    "name": "Text1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Text",
+                        "groupName": "Information",
+                        "sortOrder": 90
+                    }
+                },
+                {
+                    "name": "TextReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Text [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "TextArea1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TextArea",
+                        "groupName": "Information",
+                        "sortOrder": 110,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "TextAreaReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TextArea [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 120,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "PreviewableText1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Previewable text",
+                        "groupName": "Information",
+                        "sortOrder": 130,
+                        "hint": "previewabletext"
+                    }
+                },
+                {
+                    "name": "PreviewableTextReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Previewable text [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 140,
+                        "hint": "previewabletext"
+                    }
+                },
+                {
+                    "name": "Date1",
+                    "dataType": "PropertyDate",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Date",
+                        "groupName": "Information",
+                        "sortOrder": 150
+                    }
+                },
+                {
+                    "name": "DateReadonly1",
+                    "dataType": "PropertyDate",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Date [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 160
+                    }
+                },
+                {
+                    "name": "Integer1",
+                    "dataType": "PropertyNumber",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Integer",
+                        "groupName": "Information",
+                        "sortOrder": 170
+                    }
+                },
+                {
+                    "name": "IntegerReadonly1",
+                    "dataType": "PropertyNumber",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Integer [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 180
+                    }
+                },
+                {
+                    "name": "IntegerRange1",
+                    "dataType": "PropertyNumber",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Integer - range (0-10)",
+                        "groupName": "Information",
+                        "sortOrder": 190
+                    }
+                },
+                {
+                    "name": "Bool1",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Boolean",
+                        "groupName": "Information",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "BoolReadonly1",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Boolean [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 210
+                    }
+                },
+                {
+                    "name": "IntegerList1",
+                    "dataType": "PropertyIntegerList",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Integer List",
+                        "groupName": "Information",
+                        "sortOrder": 220
+                    }
+                },
+                {
+                    "name": "IntegerListReadonly1",
+                    "dataType": "PropertyIntegerList",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Integer List [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 230
+                    }
+                },
+                {
+                    "name": "Image1",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image",
+                        "groupName": "Information",
+                        "sortOrder": 230,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "ImageReadonly1",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 240,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "SingleSelect1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Single select",
+                        "groupName": "Information",
+                        "sortOrder": 250
+                    }
+                },
+                {
+                    "name": "SingleSelectReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Single select [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 260
+                    }
+                },
+                {
+                    "name": "MultiSelect1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Multi select",
+                        "groupName": "Information",
+                        "sortOrder": 270
+                    }
+                },
+                {
+                    "name": "MultiSelectReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Multi select [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 280
+                    }
+                },
+                {
+                    "name": "Persons",
+                    "dataType": "PersonListProperty",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "List property",
+                        "groupName": "Information",
+                        "sortOrder": 290
+                    }
+                },
+                {
+                    "name": "PersonsReadonly",
+                    "dataType": "PersonListProperty",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "List property [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "SelectionEditor1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Auto suggest selection editor",
+                        "groupName": "Information",
+                        "sortOrder": 310
+                    }
+                },
+                {
+                    "name": "SelectionEditor2",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Auto suggest selection editor with custom values",
+                        "groupName": "Information",
+                        "sortOrder": 320
+                    }
+                },
+                {
+                    "name": "SelectionEditorReadonly1",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Auto suggest selection editor [Readonly]",
+                        "groupName": "Information",
+                        "sortOrder": 330
+                    }
+                }
+            ]
+        },
+        {
+            "id": "eb67a99a-e239-41b8-9c59-20eaa5936047",
+            "name": "TeaserBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Heading",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Heading",
+                        "groupName": "Information",
+                        "sortOrder": 1
+                    }
+                },
+                {
+                    "name": "Text",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Text",
+                        "groupName": "Information",
+                        "sortOrder": 2,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "Image",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image",
+                        "groupName": "Information",
+                        "sortOrder": 3,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "Link",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Link",
+                        "groupName": "Information",
+                        "sortOrder": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "09854019-91a5-4b93-8623-17f038346001",
+            "name": "SiteLogotypeBlock",
+            "baseType": "Block",
+            "properties": [
+                {
+                    "name": "Url",
+                    "dataType": "PropertyUrl",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Url",
+                        "groupName": "Information",
+                        "sortOrder": 0,
+                        "hint": "Url"
+                    }
+                },
+                {
+                    "name": "Title",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Title",
+                        "groupName": "Information",
+                        "sortOrder": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "30685434-33de-42af-88a7-3126b936aead",
+            "name": "PageListBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Heading",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Heading",
+                        "groupName": "Information",
+                        "sortOrder": 1
+                    }
+                },
+                {
+                    "name": "IncludePublishDate",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "IncludePublishDate",
+                        "groupName": "Information",
+                        "sortOrder": 2
+                    }
+                },
+                {
+                    "name": "IncludeIntroduction",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "IncludeIntroduction",
+                        "groupName": "Information",
+                        "sortOrder": 3
+                    }
+                },
+                {
+                    "name": "Count",
+                    "dataType": "PropertyNumber",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Count",
+                        "groupName": "Information",
+                        "sortOrder": 4
+                    }
+                },
+                {
+                    "name": "SortOrder",
+                    "dataType": "PropertyNumber",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "SortOrder",
+                        "groupName": "Information",
+                        "sortOrder": 4,
+                        "hint": "SortOrder"
+                    }
+                },
+                {
+                    "name": "Root",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Root",
+                        "groupName": "Information",
+                        "sortOrder": 5
+                    }
+                },
+                {
+                    "name": "PageTypeFilter",
+                    "dataType": "PropertyPageType",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageTypeFilter",
+                        "groupName": "Information",
+                        "sortOrder": 6
+                    }
+                },
+                {
+                    "name": "CategoryFilter",
+                    "dataType": "PropertyCategory",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "CategoryFilter",
+                        "groupName": "Information",
+                        "sortOrder": 7
+                    }
+                },
+                {
+                    "name": "Recursive",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Recursive",
+                        "groupName": "Information",
+                        "sortOrder": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9fd1c860-7183-4122-8cd4-ff4c55e096f9",
+            "name": "JumbotronBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Image",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image",
+                        "groupName": "Information",
+                        "sortOrder": 1,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "ImageDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ImageDescription",
+                        "groupName": "Information",
+                        "sortOrder": 1,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "Heading",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Heading",
+                        "groupName": "Information",
+                        "sortOrder": 1
+                    }
+                },
+                {
+                    "name": "SubHeading",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "SubHeading",
+                        "groupName": "Information",
+                        "sortOrder": 2,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "ButtonText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ButtonText",
+                        "groupName": "Information",
+                        "sortOrder": 3
+                    }
+                },
+                {
+                    "name": "ButtonLink",
+                    "dataType": "PropertyUrl",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ButtonLink",
+                        "groupName": "Information",
+                        "sortOrder": 4,
+                        "hint": "Url"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "67f617a4-2175-4360-975e-75edf2b924a7",
+            "name": "EditorialBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MainBody",
+                    "dataType": "PropertyXhtmlString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MainBody",
+                        "groupName": "Information",
+                        "sortOrder": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7e932eaf-6bc2-4753-902a-8670edc5f363",
+            "name": "ContactBlock",
+            "baseType": "Block",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "Image",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Image",
+                        "groupName": "Information",
+                        "sortOrder": 1,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "Heading",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "Heading",
+                        "groupName": "Information",
+                        "sortOrder": 2
+                    }
+                },
+                {
+                    "name": "ContactPageLink",
+                    "dataType": "PropertyPageReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "ContactPageLink",
+                        "groupName": "Information",
+                        "sortOrder": 3,
+                        "hint": "contact"
+                    }
+                },
+                {
+                    "name": "LinkText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "LinkText",
+                        "groupName": "Information",
+                        "sortOrder": 4
+                    }
+                },
+                {
+                    "name": "LinkUrl",
+                    "dataType": "PropertyUrl",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "LinkUrl",
+                        "groupName": "Information",
+                        "sortOrder": 5,
+                        "hint": "Url"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d178950c-d20e-4a46-90bd-5338b2424745",
+            "name": "ContainerPage",
+            "baseType": "Page",
+            "editSettings": {
+                "available": true,
+                "sortOrder": 0
+            },
+            "properties": [
+                {
+                    "name": "MetaTitle",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaTitle",
+                        "groupName": "Metadata",
+                        "sortOrder": 100
+                    }
+                },
+                {
+                    "name": "PageImage",
+                    "dataType": "PropertyContentReference",
+                    "branchSpecific": false,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "PageImage",
+                        "groupName": "Information",
+                        "sortOrder": 100,
+                        "hint": "image"
+                    }
+                },
+                {
+                    "name": "MetaKeywords",
+                    "dataType": "PropertyStringList",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaKeywords",
+                        "groupName": "Metadata",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "TeaserText",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "TeaserText",
+                        "groupName": "Information",
+                        "sortOrder": 200,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteHeader",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteHeader",
+                        "groupName": "Advanced",
+                        "sortOrder": 200
+                    }
+                },
+                {
+                    "name": "MetaDescription",
+                    "dataType": "PropertyLongString",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "MetaDescription",
+                        "groupName": "Metadata",
+                        "sortOrder": 300,
+                        "hint": "textarea"
+                    }
+                },
+                {
+                    "name": "HideSiteFooter",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "HideSiteFooter",
+                        "groupName": "Advanced",
+                        "sortOrder": 300
+                    }
+                },
+                {
+                    "name": "DisableIndexing",
+                    "dataType": "PropertyBoolean",
+                    "branchSpecific": true,
+                    "editSettings": {
+                        "visibility": "default",
+                        "displayName": "DisableIndexing",
+                        "groupName": "Metadata",
+                        "sortOrder": 400
+                    }
+                }
+            ]
+        }
+    ],
+    "editorDefinitions": [],
+    "propertyGroups": [
+        {
+            "name": "Contact",
+            "displayName": "Contact",
+            "sortOrder": 1,
+            "systemGroup": false
+        },
+        {
+            "name": "Default",
+            "displayName": "Default",
+            "sortOrder": 2,
+            "systemGroup": false
+        },
+        {
+            "name": "Metadata",
+            "displayName": "Metadata",
+            "sortOrder": 3,
+            "systemGroup": false
+        },
+        {
+            "name": "SiteSettings",
+            "displayName": "SiteSettings",
+            "sortOrder": 6,
+            "systemGroup": false
+        },
+        {
+            "name": "Information",
+            "sortOrder": 10,
+            "systemGroup": true
+        },
+        {
+            "name": "Scheduling",
+            "sortOrder": 20,
+            "systemGroup": true
+        },
+        {
+            "name": "Advanced",
+            "sortOrder": 30,
+            "systemGroup": true
+        },
+        {
+            "name": "Shortcut",
+            "sortOrder": 40,
+            "systemGroup": true
+        },
+        {
+            "name": "Categories",
+            "sortOrder": 50,
+            "systemGroup": true
+        },
+        {
+            "name": "DynamicBlocks",
+            "sortOrder": 60,
+            "systemGroup": true
+        }
+    ],
+    "languageBranches": [
+        {
+            "name": "en",
+            "displayName": "English",
+            "urlSegment": "en",
+            "sortOrder": 10,
+            "enabled": true
+        },
+        {
+            "name": "en-GB",
+            "displayName": "English (United Kingdom)",
+            "urlSegment": "en-GB",
+            "sortOrder": 20,
+            "enabled": false
+        },
+        {
+            "name": "en-NZ",
+            "displayName": "English (New Zealand)",
+            "urlSegment": "en-NZ",
+            "sortOrder": 30,
+            "enabled": false
+        },
+        {
+            "name": "en-ZA",
+            "displayName": "English (South Africa)",
+            "urlSegment": "en-ZA",
+            "sortOrder": 40,
+            "enabled": false
+        },
+        {
+            "name": "de",
+            "displayName": "Deutsch",
+            "urlSegment": "de",
+            "sortOrder": 50,
+            "enabled": false
+        },
+        {
+            "name": "fr",
+            "displayName": "français",
+            "urlSegment": "fr",
+            "sortOrder": 60,
+            "enabled": false
+        },
+        {
+            "name": "es",
+            "displayName": "español",
+            "urlSegment": "es",
+            "sortOrder": 70,
+            "enabled": false
+        },
+        {
+            "name": "sv",
+            "displayName": "svenska",
+            "urlSegment": "sv",
+            "sortOrder": 80,
+            "enabled": true
+        },
+        {
+            "name": "no",
+            "displayName": "norsk",
+            "urlSegment": "no",
+            "sortOrder": 90,
+            "enabled": false
+        },
+        {
+            "name": "da",
+            "displayName": "dansk",
+            "urlSegment": "da",
+            "sortOrder": 100,
+            "enabled": false
+        },
+        {
+            "name": "fi",
+            "displayName": "suomi",
+            "urlSegment": "fi",
+            "sortOrder": 110,
+            "enabled": false
+        },
+        {
+            "name": "nl",
+            "displayName": "Nederlands",
+            "urlSegment": "nl",
+            "sortOrder": 120,
+            "enabled": false
+        },
+        {
+            "name": "nl-BE",
+            "displayName": "Nederlands (België)",
+            "urlSegment": "nl-BE",
+            "sortOrder": 130,
+            "enabled": false
+        },
+        {
+            "name": "pt-BR",
+            "displayName": "português (Brasil)",
+            "urlSegment": "pt-BR",
+            "sortOrder": 140,
+            "enabled": false
+        }
+    ]
+}
